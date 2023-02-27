@@ -110,7 +110,7 @@ def stats(update, context):
 def start(update, context):
     buttons = ButtonMaker()
     buttons.buildbutton(
-        "Repo", "https://github.com/kshitij
+        "Repo", "https://github.com/kshitij"
     )
     buttons.buildbutton("Report Group", "https://t.me/chochonder")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
